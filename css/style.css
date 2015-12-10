@@ -1,0 +1,9 @@
+.panel{
+    margin: 36px;
+    margin-top: 103px;
+}
+.panel-heading{
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+}

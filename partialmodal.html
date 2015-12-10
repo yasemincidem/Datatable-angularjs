@@ -1,0 +1,57 @@
+<div id="myModal" role="dialog"  ng-controller="TableCtrl">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit Row</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="exampleInputName2" class="col-sm-2 control-label">{{name}}</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName2" ng-model="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName4" class="col-sm-2 control-label">LastName</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName4" ng-model="lastname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName5" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName5"  ng-model="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName6" class="col-sm-2 control-label">Age</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName6"  ng-model="age">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName7" class="col-sm-2 control-label">Status</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName7" ng-model="status">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName8" class="col-sm-2 control-label">Country</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="exampleInputName8"  ng-model="country">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-error" data-dismiss="modal"  ng-click="Close()">Close</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal" ng-click="Save()">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>
